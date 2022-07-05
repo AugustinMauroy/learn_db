@@ -24,6 +24,7 @@ function create_table(data) {
   
   exports.read_content = function (){
   function cb (callback) {
+      console.log("callback called");
       // on effectue une requête asynchrone
       con.query("SELECT * FROM customers.customers", function(err, data) {
         if(err) {
