@@ -1,0 +1,11 @@
+{
+    "name": "learn_db",
+    "description": "jsp",
+    "dependencies": {
+        "mysql2": "2.3.3"
+    },
+    "author": {
+        "name": "ACT_Team"
+    },
+    "version": "0.0.0"
+}
